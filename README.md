@@ -1,2 +1,3 @@
 # YouTube_scraper_descriptors
-YouTube scraper example using descriptors
+
+Simple YouTube scraper example inspired by Laura Rupprecht <3
