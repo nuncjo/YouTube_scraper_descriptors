@@ -33,4 +33,4 @@ class YoutubeVideo(object):
     description = JsonResponseDescriptor('snippet', 'description')
     channel_title = JsonResponseDescriptor('contentDetails', 'relatedPlaylists', 'channelTitle')
     default_thumbnail = JsonResponseDescriptor('contentDetails', 'relatedPlaylists', 'thumbnails', 'default')
-    video_id = JsonResponseDescriptor('resourceId', 'videoId', 'thumbnails', 'default', 'url')
+    video_id = JsonResponseDescriptor('snippet', 'resourceId', 'videoId')
